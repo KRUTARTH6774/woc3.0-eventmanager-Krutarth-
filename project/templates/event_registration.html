@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>event registration</title>
+</head>
+
+<body>
+    <form action="backend.php">
+        <label for="eventname"> Event Name</label>
+        <div>
+            <input type="text" name="Myevent_name" id="eventname">
+        </div>
+        <br>
+        <label for="desc">Description</label>
+        <div>
+            <textarea name="My_Description" id="desc" cols="25" rows="4"></textarea>
+        </div>
+        <br>
+        <label for="location"> Locaton</label>
+        <div>
+            <input type="text" name="My_location" id="location">
+        </div>
+        <br>
+
+        <div>
+            From <input type="date" name="Mydate" id="starting_date">
+            <input type="time" name="time" id="starting_time">
+            To <input type="date" name="Mydate" id="end_date">
+            <input type="time" name="time" id="endtime">
+        </div>
+        <br>
+        <label for="email"> Host E-mail:</label>
+        <div>
+            <input type="email" name="Myemail" id="email">
+        </div>
+        <br>
+        <label for="Password">Host-Password</label>
+        <div>
+            <input type="password" name="password" id="Password">
+        </div>
+        <br>
+        <div>
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+        </div>
+    </form>
+    <a href="/">Back to homepage</a>
+</body>
+
+</html>
